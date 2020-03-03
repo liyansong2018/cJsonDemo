@@ -1,0 +1,9 @@
+{
+	"people":[	
+		{"firstName":"Tom","lastName":"Jason","email":"test@aa.com","height":1.77},	
+		{"lastName":"Jerry","email":"Jerry@bb.com","age":8,"height":1.55},	
+		{"email":"cccc@126.com","firstName":"z","lastName":"Juliet","age":36,"height":1.33}	
+	],
+
+	"animal":{"dog":"wangcai!"}
+} 

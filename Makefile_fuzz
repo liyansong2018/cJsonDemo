@@ -1,0 +1,10 @@
+CC = afl-gcc
+CFLAGS = -Wall
+main:main.o cJSON.o
+main.o: main.c
+	$(CC) $(CFLAGS) -c main.c -o main.o
+cJSON.o: cJSON.c 
+	$(CC) $(CFLAGS) -c cJSON.c -o cJSON.o
+
+.PHONY:clean
+	-rm -rvf *.o
